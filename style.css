@@ -1,54 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
 * {
     padding: 0px;
     margin:0px;
-    justify-content: center;
-    text-align: center;
     box-sizing: border-box;
-    color: whitesmoke;
-
 }
 
-body{
-    background-color:  whitesmoke;
+nav.navbar {
+    box-shadow: 1px 1px 6px rgb(130, 138, 148);
+    height: 12vh;
+    width:100vw;
+}
+img {
+    border-radius: 50%;
+    position: absolute;
+    top: -9%;
+    display: block;
+
+    
+}
+
+h4 {
+    margin-left: 80px;
+    color:  rgb(94, 167, 66);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+.btn {
+    text-align: center ;
+}
+
+
+
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+.texto {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-right: 0px;
+    box-shadow:  1px 1px 6px rgb(230, 228, 228);
+    
+    
+}
+table {
+    
+    background-color: rgb(98, 203, 219);
+    height: 100%;
+    
+    
+    
+    
+    
+}
+
+button.btn.submit {
+    background-color: rgb(218, 250, 190);
+    margin-bottom: 0px;
+    width: 49.2%;
+    margin-top: 5px;
+    color: rgb(51, 126, 138);
+}
+input.form-control {
+    border-style: solid;
+    border-color:rgb(150, 240, 72);;
+}
+button.btn.submit:hover{
+    background-color: rgb(150, 240, 72);
+}
+
+h3 {
+    margin-bottom: 30px;
+    color: rgb(94, 167, 66);
+    
+
+}
+th {
+    color:rgb(255, 255, 255);
+}
+ 
+
+ .container {
+     display: flex;
+     justify-content: space-between;
+     padding: 0px;
+     margin-top: 50px;
+     margin-bottom: 40px;
+ }
+
+ div#resultado-titulo {
+     display: none;
+     margin-bottom: 50px;
+     background-color: rgb(230, 228, 228);
+     padding: 40px;
+ }
+
+.row {
+    padding-left: 50px;
+    padding-right: 50px;
+    
+   
+
+}
+h1.display-4 {
+    text-align: center;
 }
 
 .jumbotron {
-    background-color: rgb(12, 31, 202);
+    
+    width: 100%;
+    height:87vh;
+    margin-top: 76px;
+   
+    background-color: rgb(98, 203, 219);
+    color: white;
+    
+}
+form#form {
+    background-color: rgb(98, 203, 219);
+    width: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 15px;
+    
+    color:rgb(255, 255, 255);
 }
 
-
-
-
-#dois {
+div.botao {
+    text-align: center;
+    margin-top: 100px;
     
-    margin-top: 10%;
-    padding: 10px;
-    
-}    
+}
 
-form{
+p.lead {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+a.btn {
+    color: rgb(94, 167, 66);
+    width: 25%;
+}
+
+div.propaganda {
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
-    width: 50%;
-    justify-items: center;
-    align-items: center;
-    margin-left: 25%;
-    padding: 20px;
-    
 }
-
-div #grupo {
-
-    background: linear-gradient( rgba(4, 194, 252, 0.5), rgba(0,0,0,0.50));
-   
-    border-radius: 15px;
-    width:  100%;
-    height: 100%;
-    margin-left: 0px;
-    ;
-}
- 
-@media screen  {
-    
-}
-
