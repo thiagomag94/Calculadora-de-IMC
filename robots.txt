@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /README.md
+Disallow: /main.js
+
+Sitemap: https://imccalculate.netlify.app/sitemap.xml
